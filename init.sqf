@@ -82,6 +82,8 @@ if (isServer) then
 	[] execVM "server\init.sqf";
 };
 
+if (isServer) then {call compile preprocessFile "mapconfig\structures\initBuildings.sqf";}; //GID Structures
+
 //init 3rd Party Scripts (not supposed to run on HC)
 if (hasInterface || isServer) then
 {
