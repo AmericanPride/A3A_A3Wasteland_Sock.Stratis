@@ -90,6 +90,11 @@ v_restoreVehicle = {
   diag_log format["%1(%2) is being restored.", _vehicle_key, _class];
 
 
+  //removes UAVs and UGVs older then 12 hours
+  if ({_class isKindOf _x} count ["UAV_01_base_F", "UAV_02_base_F", "UGV_01_base_F"] > 0 && {_hours_alive > 12}) exitWith {
+    diag_log format["vehicle %1(%2) has been alive for %3 (max=%4), skipping it", _vehicle_key, _class, _hours_alive, 12];
+  };
+
   if (not(_ignore_expiration) && {isSCALAR(_hours_alive) && {A3W_vehicleLifetime > 0 && {_hours_alive > A3W_vehicleLifetime}}}) exitWith {
     diag_log format["vehicle %1(%2) has been alive for %3 (max=%4), skipping it", _vehicle_key, _class, _hours_alive, A3W_vehicleLifetime];
   };
@@ -306,7 +311,7 @@ v_restoreVehicle = {
           _obj removeWeaponTurret ["missiles_SCALPEL", [0]];      
           _obj addMagazineTurret ["120Rnd_CMFlare_Chaff_Magazine",[-1]];
           _obj addMagazineTurret ["Laserbatteries",[0]];     
-          _obj addMagazineTurret ["2Rnd_LG_scalpel",[0]];
+          //_obj addMagazineTurret ["2Rnd_LG_scalpel",[0]];
           _obj addWeaponTurret ["CMFlareLauncher", [-1]];
           _obj addWeaponTurret ["Laserdesignator_mounted", [0]];
           _obj addWeaponTurret ["missiles_SCALPEL", [0]];   	
@@ -434,9 +439,9 @@ v_restoreVehicle = {
           _obj setVehicleAmmoDef 0;		
           _obj removeWeaponTurret ["FakeWeapon",[0]]; 
           _obj removeWeaponTurret ["mortar_82mm",[0]];
-          _obj addMagazineTurret ["8Rnd_82mm_Mo_shells",[0]];
+          //_obj addMagazineTurret ["8Rnd_82mm_Mo_shells",[0]];
           _obj addMagazineTurret ["8Rnd_82mm_Mo_Flare_white",[0]];
-          _obj addMagazineTurret ["8Rnd_82mm_Mo_LG",[0]];
+          //_obj addMagazineTurret ["8Rnd_82mm_Mo_LG",[0]];
           _obj addWeaponTurret ["FakeWeapon",[0]]; 
           _obj addWeaponTurret ["mortar_82mm",[0]];
       };	
