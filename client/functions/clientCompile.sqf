@@ -42,6 +42,7 @@ getFullMove = "client\functions\getFullMove.sqf" call mf_compile;
 getMoveParams = "client\functions\getMoveParams.sqf" call mf_compile;
 getPushPlaneAction = "client\functions\getPushPlaneAction.sqf" call mf_compile;
 groupNotify = "client\functions\groupNotify.sqf" call mf_compile;
+isDonor = "client\systems\adminPanel\isDonor.sqf" call mf_compile;
 isAdmin = "client\systems\adminPanel\isAdmin.sqf" call mf_compile;
 isAssignableBinocular = "client\functions\isAssignableBinocular.sqf" call mf_compile;
 isPVarTarget = "client\functions\isPVarTarget.sqf" call mf_compile;
@@ -55,6 +56,8 @@ updateTerritoryMarkers = "territory\client\updateTerritoryMarkers.sqf" call mf_c
 vehicleSideCfg = "client\functions\vehicleSideCfg.sqf" call mf_compile;
 weaponDisassembledEvent = "client\functions\weaponDisassembledEvent.sqf" call mf_compile;
 deleteBeacon = "client\items\beacon\deleteBeacon.sqf" call mf_compile;
+canSuggestToSurrender = "addons\Surrender\canSuggestToSurrender.sqf" call mf_compile;
+wasSuggestedToSurrender = "addons\Surrender\wasSuggestedToSurrender.sqf" call mf_compile;
 
 // Player details and actions
 loadPlayerMenu = "client\systems\playerMenu\init.sqf" call mf_compile;
