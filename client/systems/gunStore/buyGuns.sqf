@@ -59,7 +59,6 @@ storePurchaseHandle = _this spawn
     "srifle_GM6_camo_LRPS_F",
     "arifle_MX_SW_Black_F",
     "MMG_01_hex_F",
-    "MMG_02_sand_F",
     "MMG_02_camo_F",
     "MMG_02_black_F",
     "launch_O_Titan_short_F",
@@ -77,7 +76,7 @@ storePurchaseHandle = _this spawn
 	_showInsufficientDonatorError =
 	{
 		_itemText = _this select 0;
-		hint parseText format ["<t color='#ffff00'>This item is for community supporters only.</t><br/>The purchase of ""%1"" has been cancelled.", _itemText];
+		hint parseText format ["<t color='#ffff00'>This item is only sold to community supporters. Use the items base color\camo.</t><br/>The purchase of ""%1"" has been cancelled.", _itemText];
 		playSound "FD_CP_Not_Clear_F";
 		_price = -1;
 	};
