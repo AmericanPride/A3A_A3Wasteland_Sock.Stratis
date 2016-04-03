@@ -98,7 +98,7 @@ if (isServer) then {call compile preprocessFile "mapconfig\structures\initBuildi
 if (hasInterface || isServer) then
 {
   [] execVM "addons\vactions\functions.sqf";
-  [] execVM "addons\parking\functions.sqf";
+//  [] execVM "addons\parking\functions.sqf";
   [] execVM "addons\storage\functions.sqf";
   [] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
   [] execVM "addons\JumpMF\init.sqf";
@@ -109,4 +109,6 @@ if (hasInterface || isServer) then
   [] execVM "addons\scripts\resupply_actions.sqf";
   [] execVM "addons\lsd_nvg\init.sqf";
   [] execVM "addons\vsave\vsfunctions.sqf";
+  [] execVM "addons\APOC_Airdrop_Assistance\init.sqf";
+  [] execVM "addons\statusBar\statusBar.sqf";   // shows FPS and teamspeak details
 };
