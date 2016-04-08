@@ -5,12 +5,8 @@
  include "otherSite.sqf"
 */
 
-#include "GunstoreA.sqf"
-#include "Ruins.sqf"
 #include "Airport.sqf"
-#include "Campmaxwell.sqf"
-#include "CampRogain.sqf"
-#include "Jaycove.sqf"
+#include "GunstoreA.sqf"
 #include "RellicHill.sqf"
 #include "Ruins.sqf"
 #include "ValleyGunStore.sqf"
