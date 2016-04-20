@@ -8,7 +8,7 @@ class EditorData
 	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=679;
+		nextID=681;
 	};
 	class MarkerIDProvider
 	{
@@ -95,7 +95,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=521;
+		items=523;
 		class Item0
 		{
 			dataType="Group";
@@ -4149,7 +4149,7 @@ class Mission
 		class Item150
 		{
 			dataType="Marker";
-			position[]={3026.928,3.805697,5990.8579};
+			position[]={2455.3311,74.097511,5682.6431};
 			name="GenStore1_objSpawn";
 			type="Empty";
 			colorName="ColorBlack";
@@ -4664,7 +4664,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=350;
 			type="Land_i_House_Small_01_V1_dam_F";
@@ -4680,7 +4680,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=351;
 			type="Land_i_House_Small_02_V1_dam_F";
@@ -4696,7 +4696,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=352;
 			type="Land_i_Stone_HouseBig_V1_dam_F";
@@ -4712,7 +4712,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=353;
 			type="Land_i_Stone_Shed_V1_dam_F";
@@ -4728,7 +4728,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=356;
 			type="Land_u_House_Small_02_V1_dam_F";
@@ -4744,7 +4744,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=357;
 			type="Land_u_Addon_02_V1_F";
@@ -4760,7 +4760,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=358;
 			type="Land_i_House_Big_02_V1_F";
@@ -5032,7 +5032,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=375;
 			type="Land_i_Garage_V1_dam_F";
@@ -5464,7 +5464,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=402;
 			type="Land_u_House_Small_01_V1_dam_F";
@@ -5496,7 +5496,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=404;
 			type="Land_u_House_Small_02_V1_F";
@@ -5512,7 +5512,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=405;
 			type="Land_CratesShabby_F";
@@ -5560,7 +5560,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=408;
 			type="Land_i_Stone_HouseSmall_V1_F";
@@ -5603,7 +5603,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4242.1357,130.71704,6771.6162};
-				angles[]={0.12681629,5.7888565,0.069885373};
+				angles[]={0,5.7888565,0};
 			};
 			side="Empty";
 			class Attributes
@@ -5903,8 +5903,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4394.2173,132.88037,6772.9771};
-				angles[]={0.12189011,5.1617208,6.153913};
+				position[]={4394.2173,132.80666,6772.9771};
+				angles[]={0,5.1617208,0};
 			};
 			side="Empty";
 			class Attributes
@@ -5920,7 +5920,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4374.7534,133.64172,6735.9404};
-				angles[]={0.0099949092,5.2119608,6.278194};
+				angles[]={0,5.2119608,0};
 			};
 			side="Empty";
 			class Attributes
@@ -5957,7 +5957,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=434;
 			type="Land_i_Shop_01_V1_F";
@@ -5983,8 +5983,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4358.123,135.46066,6792.3184};
-				angles[]={6.2407103,0.38441101,6.2108102};
+				position[]={4358.123,135.4442,6792.3184};
+				angles[]={0,0.38441101,0};
 			};
 			side="Empty";
 			class Attributes
@@ -5999,8 +5999,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4315.4395,138.70303,6796.3613};
-				angles[]={6.22575,0,6.2382135};
+				position[]={4315.4395,138.69807,6796.3613};
 			};
 			side="Empty";
 			class Attributes
@@ -6015,8 +6014,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4271.6069,136.68613,6778.8159};
-				angles[]={0.044968102,6.178256,0.27994838};
+				position[]={4271.6069,136.52533,6778.8159};
+				angles[]={0,6.178256,0};
 			};
 			side="Empty";
 			class Attributes
@@ -6133,7 +6132,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=445;
 			type="Land_CashDesk_F";
@@ -6149,7 +6148,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=446;
 			type="Land_CashDesk_F";
@@ -6181,7 +6180,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=448;
 			type="Land_GarbageWashingMachine_F";
@@ -6229,7 +6228,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=451;
 			type="Land_Garbage_square3_F";
@@ -6245,7 +6244,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=452;
 			type="Land_Garbage_square5_F";
@@ -6629,7 +6628,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=476;
 			type="Land_i_Stone_HouseBig_V1_F";
@@ -6916,7 +6915,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=494;
 			type="Land_LampHalogen_F";
@@ -6932,7 +6931,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=495;
 			type="Land_Slum_House01_F";
@@ -7092,7 +7091,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=505;
 			type="Land_Slum_House01_F";
@@ -7108,7 +7107,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=506;
 			type="Land_Slum_House01_F";
@@ -7299,7 +7298,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=518;
 			type="Land_Slum_House02_F";
@@ -7315,7 +7314,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=519;
 			type="Land_Slum_House02_F";
@@ -7619,7 +7618,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=538;
 			type="Land_i_Stone_HouseBig_V1_F";
@@ -7843,7 +7842,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=552;
 			type="Land_Grave_V3_F";
@@ -8035,7 +8034,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=564;
 			type="Land_cargo_addon01_V1_F";
@@ -8099,7 +8098,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=568;
 			type="Land_Shed_Small_F";
@@ -8131,7 +8130,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=570;
 			type="Land_u_Addon_01_V1_F";
@@ -8147,7 +8146,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=571;
 			type="Land_i_Stone_Shed_V1_F";
@@ -8179,7 +8178,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=573;
 			type="Land_i_Addon_03_V1_F";
@@ -8195,7 +8194,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=574;
 			type="Land_i_House_Big_01_V1_F";
@@ -8400,7 +8399,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=590;
 			type="Land_i_Shed_Ind_F";
@@ -8416,7 +8415,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=591;
 			type="Land_i_Shed_Ind_F";
@@ -8432,7 +8431,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=592;
 			type="Land_i_Shed_Ind_F";
@@ -8940,7 +8939,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=636;
 			type="Land_TyreBarrier_01_line_x6_F";
@@ -8956,7 +8955,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=637;
 			type="Land_TyreBarrier_01_line_x4_F";
@@ -8972,7 +8971,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=638;
 			type="Land_TyreBarrier_01_line_x6_F";
@@ -8988,7 +8987,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=639;
 			type="Land_TyreBarrier_01_line_x6_F";
@@ -9004,7 +9003,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=640;
 			type="Land_TyreBarrier_01_line_x6_F";
@@ -9020,7 +9019,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=641;
 			type="Land_TyreBarrier_01_line_x6_F";
@@ -9036,7 +9035,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=642;
 			type="Land_TyreBarrier_01_line_x6_F";
@@ -9052,7 +9051,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=643;
 			type="Land_TyreBarrier_01_line_x6_F";
@@ -9068,7 +9067,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=644;
 			type="Land_TyreBarrier_01_line_x6_F";
@@ -9084,7 +9083,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=645;
 			type="Land_TyreBarrier_01_line_x6_F";
@@ -9100,7 +9099,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="[this, true, true] call A3W_fnc_setupMissionObject";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=646;
 			type="Land_TyreBarrier_01_line_x6_F";
@@ -9393,14 +9392,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4438.9375,134.2187,6776.3535};
+				position[]={4438.9375,134.21863,6776.3535};
 				angles[]={0,4.7972088,0};
 			};
 			side="Empty";
 			flags=1;
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=666;
 			type="Land_LampAirport_F";
@@ -9417,7 +9416,7 @@ class Mission
 			flags=1;
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=667;
 			type="Land_LampAirport_F";
@@ -9433,7 +9432,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=668;
 			type="Land_Cargo_Tower_V1_F";
@@ -9450,7 +9449,7 @@ class Mission
 			flags=1;
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=669;
 			type="Land_LampAirport_F";
@@ -9467,7 +9466,7 @@ class Mission
 			flags=1;
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=670;
 			type="Land_LampAirport_F";
@@ -9484,7 +9483,7 @@ class Mission
 			flags=1;
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=671;
 			type="Land_LampAirport_F";
@@ -9494,13 +9493,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3045.7051,4.0843716,5984.6221};
-				angles[]={0.010409717,4.9744849,6.2583904};
+				position[]={3045.7051,4.0844011,5984.6221};
+				angles[]={0,4.9744849,6.2457032};
 			};
 			side="Empty";
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=672;
 			type="Land_HBarrier_3_F";
@@ -9510,13 +9509,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3042.3628,4.148344,5982.7632};
+				position[]={3042.3628,4.1483417,5982.7632};
 				angles[]={0,4.4639883,0};
 			};
 			side="Empty";
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=673;
 			type="Land_HBarrier_3_F";
@@ -9526,13 +9525,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3057.8774,3.919023,5996.582};
-				angles[]={0,4.9744849,0};
+				position[]={3057.8774,3.9189765,5996.582};
+				angles[]={6.2432065,4.9744849,6.2232571};
 			};
 			side="Empty";
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=674;
 			type="Land_HBarrier_3_F";
@@ -9542,13 +9541,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3054.3071,4.1725602,6001.5767};
+				position[]={3054.3071,4.172574,6001.5767};
 				angles[]={0,0.68197107,6.2806959};
 			};
 			side="Empty";
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=675;
 			type="Land_HBarrier_3_F";
@@ -9564,7 +9563,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=676;
 			type="Land_HBarrier_3_F";
@@ -9580,7 +9579,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=677;
 			type="Land_Concrete_SmallWall_4m_F";
@@ -9596,10 +9595,42 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this allowDamage False; this enableSimulation False;";
+				init="[this, true] call A3W_fnc_setupMissionObject";
 			};
 			id=678;
 			type="Land_LightHouse_F";
+		};
+		class Item521
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2432.8015,7.0469885,1116.4017};
+				angles[]={0,4.5083055,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="[this, true] call A3W_fnc_setupMissionObject";
+			};
+			id=679;
+			type="Land_LampShabby_F";
+		};
+		class Item522
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3341.2363,238.23607,2902.0286};
+				angles[]={0,3.7953002,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="[this, true] call A3W_fnc_setupMissionObject";
+			};
+			id=680;
+			type="Land_LampShabby_F";
 		};
 	};
 };
